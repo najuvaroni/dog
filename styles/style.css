@@ -134,7 +134,8 @@ main #form #form-formulario form,
 }
 
 main #form #form-formulario form input,
-.formulario .formulario-form form input{
+.formulario .formulario-form form input,
+.cadastro-clientes form input{
     display: block; /* deixar em forma de bloco*/
     padding: 8px;
     border: none;
@@ -146,7 +147,8 @@ main #form #form-formulario form input,
 }
 
 main #form #form-formulario form button,
-.formulario .formulario-form form button{
+.formulario .formulario-form form button,
+.cadastro-clientes form button{
     padding: 8px;
     border: none;
     background-color: var(--cor-principal);
@@ -252,9 +254,66 @@ main .secoes .secoes-consultascanceladas{
 main .secoes div{
     border-radius: 10px;
     width: 350px;
+<<<<<<< HEAD
     display: inline-block;
     margin: 20px;
     padding: 60px;
     color: var(--cor-preta);
 
 }
+=======
+    background-image: none;
+}
+
+/*=======================================================================
+    página de cadastro de clientes css
+=======================================================================*/
+
+.cadastro-clientes form .primeira-grid,
+.cadastro-clientes form .segunda-grid,
+.cadastro-clientes form .terceira-grid,
+.cadastro-clientes form .quarta-grid{
+    display: grid;
+}
+
+.cadastro-clientes form .primeira-grid{
+    grid-template-columns: 3fr 2fr;
+}
+
+.cadastro-clientes form .segunda-grid{
+    grid-template-columns: 2fr 2fr 2fr 1fr
+}
+
+.cadastro-clientes form .terceira-grid{
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.cadastro-clientes form .quarta-grid{
+    grid-template-columns: 3fr 1fr;
+}
+
+.cadastro-clientes form input{
+    width: 100%;
+}
+
+.cadastro-clientes form div,
+.cadastro-clientes h1,{
+    padding: 5px;
+}
+
+.cadastro-clientes form .botao{
+    display: flex;
+    width: 300px;
+}
+
+.cadastro-clientes form .botao .salvar{
+    background-color: #1CF365 !important;
+    margin-right: 10px;
+}
+
+.cadastro-clientes form .botao .cancelar{
+    background-color: #DF2F2F !important;
+}
+
+
+>>>>>>> 002a12ea25d67a80f0603888c3354cedfd3df4da
