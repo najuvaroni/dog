@@ -235,9 +235,7 @@ footer {
     padding-top: 17px;
 }
 
-/*=======================================================================
-    página de consultas css
-=======================================================================*/
+/*página de consultas css*/
 
 .pag_consulta main #form #form-texto {
     padding: 35px;
@@ -249,9 +247,7 @@ footer {
     background-image: none;
 }
 
-/*=======================================================================
-    página de cadastro de clientes css
-=======================================================================*/
+/*página de cadastro de clientes css*/
 
 .cadastro-clientes form .primeira-grid,
 .cadastro-clientes form .segunda-grid,
