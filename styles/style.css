@@ -263,3 +263,104 @@ main .secoes div{
     color: var(--cor-preta);
 
 }
+
+
+
+.cadastro{
+    margin-top: 10px;
+}
+
+.cadastro a{
+    color: var(--cor-branca);
+    text-decoration: none;
+}
+
+.formulario .formulario-form form a{
+    color: var(--cor-preta);
+    text-decoration: none;
+    text-align: center;
+}
+
+main #form #form-formulario{
+    background-image: url(../img/dog.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.formulario{
+    height: calc(100vh - 116px);
+}
+
+footer{
+    background-color: var(--cor-topo);
+    text-align: center;
+}
+
+
+.cadastro_link {
+    display: block;
+    padding-top: 17px;
+}
+
+/*=======================================================================
+    página de consultas css
+=======================================================================*/
+
+.pag_consulta main #formulario #formulario-texto h3{
+    padding: 25px;
+    width: 350px;
+}
+
+
+
+.pag_consulta main #formulario #formulario-formulario form{
+    display: block;
+}
+
+.pag_consulta main #formulario #formulario-formulario form .grid-3-consulta {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    gap: 20px;
+}
+
+.pag_consulta main #formulario #formulario-formulario form input,
+.pag_consulta main #formulario #formulario-formulario form textarea {
+    width: 100%;
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 8px 8px -5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 13px;
+    margin-bottom: 20px;
+}
+
+.pag_consulta main #formulario form {
+    padding: 30px;
+}
+
+div.formulario-formulario-button{
+    display: flex;
+    width: 340px;
+}
+
+.buttonsalvar{
+    background-color: #1CF365 !important;
+}
+
+.buttoncancelar{
+    background-color: #DF2F2F !important;
+    margin: 0px 20px;
+}
+
+.formulario-formulario-button{
+    margin-top: 20px;
+}
+
+.buttonsalvar,
+.buttoncancelar {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
