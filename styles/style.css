@@ -11,6 +11,7 @@
     margin: 0px; /*tira a margem*/
     padding: 0px; /*tira espaçamento*/
     transition: all 1s; /*todos os meus componentes terão transição*/
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box; /*bordas dos botões*/
 }
 
