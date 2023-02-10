@@ -196,3 +196,17 @@ footer{
     display: block;
     padding-top: 17px;
 }
+
+/*=======================================================================
+    página de consultas css
+=======================================================================*/
+
+.pag_consulta main #form #form-texto{
+    padding: 35px;
+    width: 350px;
+}
+
+.pag_consulta main #form #form-formulário{
+    width: 350px;
+    background-image: none;
+}
