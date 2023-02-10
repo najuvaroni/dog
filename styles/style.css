@@ -125,7 +125,7 @@ main #form #form-texto{
 }
 
 main #form #form-formulario form,
-.formulario{
+main #formulario #formulario-formulario form{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +134,8 @@ main #form #form-formulario form,
 }
 
 main #form #form-formulario form input,
-.formulario .formulario-form form input{
+.formulario .formulario-form form input,
+main #formulario #formulario-formulario form input{
     display: block; /* deixar em forma de bloco*/
     padding: 8px;
     border: none;
@@ -146,7 +147,8 @@ main #form #form-formulario form input,
 }
 
 main #form #form-formulario form button,
-.formulario .formulario-form form button{
+.formulario .formulario-form form button,
+main #formulario #formulario-formulario form button{
     padding: 8px;
     border: none;
     background-color: var(--cor-principal);
@@ -201,12 +203,51 @@ footer{
     página de consultas css
 =======================================================================*/
 
-.pag_consulta main #form #form-texto{
-    padding: 35px;
+.pag_consulta main #formulario #formulario-texto h3{
+    padding: 25px;
     width: 350px;
 }
 
-.pag_consulta main #form #form-formulário{
-    width: 350px;
-    background-image: none;
+
+
+.pag_consulta main #formulario #formulario-formulario form{
+    display: block;
+}
+
+.pag_consulta main #formulario #formulario-formulario form .grid-3 {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    gap: 20px;
+}
+
+.pag_consulta main #formulario #formulario-formulario form input,
+.pag_consulta main #formulario #formulario-formulario form textarea {
+    width: 100%;
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 8px 8px -5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.pag_consulta main #formulario form {
+    padding: 30px;
+}
+
+div.formulario-formulario-button{
+    display: flex;
+    width: 340px;
+}
+
+.buttonsalvar{
+    background-color: #1CF365 !important;
+}
+
+.buttoncancelar{
+    background-color: #DF2F2F !important;
+    margin: 0px 20px;
+}
+
+.formulario-formulario-button{
+    margin-top: 20px;
 }
