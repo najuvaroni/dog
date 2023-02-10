@@ -125,7 +125,7 @@ main #form #form-texto{
 }
 
 main #form #form-formulario form,
-main #formulario #formulario-formulario form{
+.formulario{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,8 +134,7 @@ main #formulario #formulario-formulario form{
 }
 
 main #form #form-formulario form input,
-.formulario .formulario-form form input,
-main #formulario #formulario-formulario form input{
+.formulario .formulario-form form input{
     display: block; /* deixar em forma de bloco*/
     padding: 8px;
     border: none;
@@ -147,8 +146,7 @@ main #formulario #formulario-formulario form input{
 }
 
 main #form #form-formulario form button,
-.formulario .formulario-form form button,
-main #formulario #formulario-formulario form button{
+.formulario .formulario-form form button{
     padding: 8px;
     border: none;
     background-color: var(--cor-principal);
@@ -199,52 +197,69 @@ footer{
     padding-top: 17px;
 }
 
-/*=======================================================================
-    página de consultas css
-=======================================================================*/
+/*------------------------------------------COMEÇO DO DASHBOARD---------------------------------------*/
 
-.pag_consulta main #formulario #formulario-texto h3{
-    padding: 25px;
-    width: 350px;
+.botoes{
+    background-color: var(--cor-topo);
+    height: 100vh;
 }
+
 .pag_consulta main #formulario #formulario-formulario form{
     display: block;
 }
 
-.pag_consulta main #formulario #formulario-formulario form .grid-3 {
+.pag_consulta main #formulario #formulario-formulario form .grid-3,
+#maind{
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr;
+    height: 100vh;
 }
 
-.pag_consulta main #formulario #formulario-formulario form input,
-.pag_consulta main #formulario #formulario-formulario form textarea {
-    width: 100%;
-    display: block;
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.19);
-    box-shadow: 0px 8px 8px -5px rgba(0, 0, 0, 0.2);
+main #div-dashboard{
+    margin: 30px;
+    background-color: var(--cor-principal);
+    text-align: center;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+main #div-dashboard a{
+    text-decoration: none;
+    color: black;
+}
+
+main #div-dashboard div:houver{
+    font-size: large;
+    padding: 20px;
+}
+
+.menu-lat{
+    background-color: var(--cor-topo);
+}
+
+main .secoes .secoes-cadastroclientes{
+    border: 4px solid yellow;
+}
+
+main .secoes .secoes-cadastroconsultas{
+    border: 4px solid purple;
+}
+
+main .secoes .secoes-cadastrousuarios{
+    border: 4px solid green;
+}
+
+main .secoes .secoes-consultascanceladas{
+    border: 4px solid salmon;
+}
+
+main .secoes div{
     border-radius: 10px;
-}
+    width: 350px;
+    display: inline-block;
+    margin: 20px;
+    padding: 60px;
+    color: var(--cor-preta);
 
-.pag_consulta main #formulario form {
-    padding: 30px;
-}
-
-div.formulario-formulario-button{
-    display: flex;
-    width: 340px;
-}
-
-.buttonsalvar{
-    background-color: #1CF365 !important;
-}
-
-.buttoncancelar{
-    background-color: #DF2F2F !important;
-    margin: 0px 20px;
-}
-
-.formulario-formulario-button{
-    margin-top: 20px;
 }
