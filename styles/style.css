@@ -197,16 +197,64 @@ footer{
     padding-top: 17px;
 }
 
-/*=======================================================================
-    página de consultas css
-=======================================================================*/
+/*------------------------------------------COMEÇO DO DASHBOARD---------------------------------------*/
 
-.pag_consulta main #form #form-texto{
-    padding: 35px;
-    width: 350px;
+.botoes{
+    background-color: var(--cor-topo);
+    height: 100vh;
 }
 
-.pag_consulta main #form #form-formulário{
+#maind{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr;
+    height: 100vh;
+}
+
+main #div-dashboard{
+    margin: 30px;
+    background-color: var(--cor-principal);
+    text-align: center;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+main #div-dashboard a{
+    text-decoration: none;
+    color: black;
+}
+
+main #div-dashboard div: houver{
+    font-size: large;
+    padding: 20px;
+}
+
+.menu-lat{
+    background-color: var(--cor-topo);
+}
+
+main .secoes .secoes-cadastroclientes{
+    border: 4px solid yellow;
+}
+
+main .secoes .secoes-cadastroconsultas{
+    border: 4px solid purple;
+}
+
+main .secoes .secoes-cadastrousuarios{
+    border: 4px solid green;
+}
+
+main .secoes .secoes-consultascanceladas{
+    border: 4px solid salmon;
+}
+
+main .secoes div{
+    border-radius: 10px;
     width: 350px;
-    background-image: none;
+    display: inline-block;
+    margin: 20px;
+    padding: 60px;
+    color: var(--cor-preta);
+
 }
